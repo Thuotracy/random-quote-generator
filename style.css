@@ -1,1 +1,12 @@
- 
+ body{
+
+ }
+
+ #container{
+    background-color: white;
+    border: 5px solid black;
+    height: 275px;
+    width: 750px;
+    margin: 0 auto;
+    text-align: center;
+ }
