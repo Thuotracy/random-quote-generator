@@ -12,4 +12,9 @@ let quote = [
  "All our dreams can come true if we have the courage to pursue them.",
  "I always wanted to be somebody, but now I realize I should have been more specific."
 
-]
+];
+
+btn.addEventListener('click', function(){
+    var randomQuote = quote[Math.floor(Math.random() * quote.length)]
+    output.innerHTML = randomQuote;
+})
