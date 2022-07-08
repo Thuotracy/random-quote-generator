@@ -10,3 +10,12 @@
     margin: 0 auto;
     text-align: center;
  }
+
+ #btn{
+    margin: 50px auto;
+    height: 50px;
+    width: 250px;
+    font-size: 22px;
+    background-color: blue;
+
+ }
