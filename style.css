@@ -1,41 +1,44 @@
- body{
-   background-image: url("background.jpg");
-   background-color: #cccccc; /* Used if the image is unavailable */
-   height: 500px; /* You must set a specified height */
-   background-position: center; /* Center the image */
-   background-repeat: no-repeat; /* Do not repeat the image */
-   background-size: cover; 
- }
+* {
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+}
+body {
+  background-image: url("background.jpg");
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
 
- #container{
-    background-color: pink;
-    border: 4px solid black;
-    height: 275px;
-    width: 550px;
-    margin: 0 auto;
-    text-align: center;
-  
- }
+#container {
+  background-color: pink;
+  border: 4px solid black;
+  height: 275px;
+  width: 550px;
+  margin: 0 auto;
+  text-align: center;
+}
 
- #btn{
-    margin: 50px auto;
-    height: 50px;
-    width: 250px;
-    font-size: 22px;
-    background-color: black;
-    color: white;
-    border: 2px solid black;
- }
+#btn {
+  margin: 50px auto;
+  height: 50px;
+  width: 250px;
+  font-size: 22px;
+  background-color: black;
+  color: white;
+}
+#btn:active {
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
 
- #output{
-   margin: 25px auto;
-   color: black;
-   font-size: 20px;
-   background-color: white;
-   height: 70px;
-   text-align: center;
-   width: 500px;
-   border: 1px solid black;
-   
- }
-
+#output {
+  margin: 25px auto;
+  color: black;
+  font-size: 20px;
+  background-color: white;
+  height: 70px;
+  text-align: center;
+  width: 500px;
+  border: 1px solid black;
+}
