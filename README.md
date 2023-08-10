@@ -6,6 +6,8 @@ This is a website that generates random quotes when you click the button
 
 ## live link
 
+https://thuotracy.github.io/random-quote-generator/
+
 ##  Languages 
 * CSS
 * HTML 
