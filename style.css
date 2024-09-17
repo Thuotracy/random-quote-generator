@@ -6,11 +6,11 @@
    background-repeat: no-repeat; /* Do not repeat the image */
    background-size: cover; 
  }
-
+/* in container and output height changed for min-height  */
  #container{
     background-color: pink;
     border: 4px solid black;
-    height: 275px;
+    min-height: 275px;
     width: 550px;
     margin: 0 auto;
     text-align: center;
@@ -32,7 +32,7 @@
    color: black;
    font-size: 20px;
    background-color: white;
-   height: 70px;
+   min-height: 80px;
    text-align: center;
    width: 500px;
    border: 1px solid black;
