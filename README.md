@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a website that generates random quotes when you click the button
+This is a website that generates random quotes with random images  when you click the button
 
 ## live link
 
